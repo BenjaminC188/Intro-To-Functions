@@ -3,6 +3,8 @@ from turtle import *
 
 t = Turtle()
 
+t.speed(0)
+
 for i in range(4):
     t.forward(100)
     t.left(90)
@@ -45,7 +47,20 @@ def addSquares(iRange):
     for i in range(iRange):
         square(length, 90)
         length += 25
-addSquares(5)
+#addSquares(5)
+
+def bigSquares(iRange):
+    length = 5
+    for i in range(iRange):
+        square(length, 90)
+        t.right(5)
+        length += 5
+bigSquares(60)
+
+def star(iRange):
+    length
 
 
 
+    
+    
