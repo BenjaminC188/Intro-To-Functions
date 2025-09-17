@@ -49,16 +49,35 @@ def addSquares(iRange):
         length += 25
 #addSquares(5)
 
+
+
 def bigSquares(iRange):
     length = 5
     for i in range(iRange):
         square(length, 90)
         t.right(5)
         length += 5
-bigSquares(60)
+#bigSquares(60)
+
+def star(x,y):
+    for i in range(5):
+        t.forward(x)
+        t.left(y)
 
 def star(iRange):
-    length
+    length = 5
+    for i in range(iRange):
+        star(length, 144)
+        t.right(5)
+        length += 5
+star(60)
+    
+    
+
+
+
+
+    
 
 
 
